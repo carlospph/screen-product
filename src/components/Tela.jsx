@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {Header} from "./header/Header.jsx";
+import { Header } from "./header/Header.jsx";
 
 const Sectory = styled.section`
   background: #f2f2f2;
@@ -228,93 +228,96 @@ const Btn = styled.button`
 
 export function Tela() {
   return (
-    <Sectory>
-      <Container>
-        <div>
-          <Screen>
-            <img
-              src="https://images.pexels.com/photos/8294659/pexels-photo-8294659.jpeg"
-              alt="Imagem principal"
-            />
-          </Screen>
-          <ContainerThumbnail>
-            <Thumbnail>
+    <>
+      <Header />
+      <Sectory>
+        <Container>
+          <div>
+            <Screen>
               <img
                 src="https://images.pexels.com/photos/8294659/pexels-photo-8294659.jpeg"
-                alt="Imagem 1"
-              />
-            </Thumbnail>
-            <Thumbnail>
-              <img
-                src="https://images.pexels.com/photos/8566466/pexels-photo-8566466.jpeg"
-                alt="Imagem 2"
-              />
-            </Thumbnail>
-            <Thumbnail>
-              <img
-                src="https://images.pexels.com/photos/176842/pexels-photo-176842.jpeg"
-                alt="Imagem 3"
-              />
-            </Thumbnail>
-            <Thumbnail>
-              <img
-                src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg"
                 alt="Imagem principal"
               />
-            </Thumbnail>
-          </ContainerThumbnail>
-        </div>
-        <div>
-          <Titulo>Tênis Nike Revolution 6 Next Nature Masculino</Titulo>
-          <Reference>Casual | Nike | REF:38416711</Reference>
+            </Screen>
+            <ContainerThumbnail>
+              <Thumbnail>
+                <img
+                  src="https://images.pexels.com/photos/8294659/pexels-photo-8294659.jpeg"
+                  alt="Imagem 1"
+                />
+              </Thumbnail>
+              <Thumbnail>
+                <img
+                  src="https://images.pexels.com/photos/8566466/pexels-photo-8566466.jpeg"
+                  alt="Imagem 2"
+                />
+              </Thumbnail>
+              <Thumbnail>
+                <img
+                  src="https://images.pexels.com/photos/176842/pexels-photo-176842.jpeg"
+                  alt="Imagem 3"
+                />
+              </Thumbnail>
+              <Thumbnail>
+                <img
+                  src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg"
+                  alt="Imagem principal"
+                />
+              </Thumbnail>
+            </ContainerThumbnail>
+          </div>
+          <div>
+            <Titulo>Tênis Nike Revolution 6 Next Nature Masculino</Titulo>
+            <Reference>Casual | Nike | REF:38416711</Reference>
 
-          <Status>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-solid fa-star"></i>
-            <i className="fa-regular fa-star"></i>
-            <i className="fa-regular fa-star"></i>
-
-            <StatusNota>
+            <Status>
               <i className="fa-solid fa-star"></i>
-              <span>4.7</span>
-            </StatusNota>
+              <i className="fa-solid fa-star"></i>
+              <i className="fa-solid fa-star"></i>
+              <i className="fa-regular fa-star"></i>
+              <i className="fa-regular fa-star"></i>
 
-            <StatusNumberAvaliation>(90 avaliações)</StatusNumberAvaliation>
-          </Status>
+              <StatusNota>
+                <i className="fa-solid fa-star"></i>
+                <span>4.7</span>
+              </StatusNota>
 
-          <Price>
-            <span className="simbolo">R$</span>{" "}
-            <span className="priceAtual">250,00</span>
-            <span className="priceOld">R$ 190,00</span>
-          </Price>
-          <Description>
-            <TitleDescription>Descrição do produto</TitleDescription>
-            <TextDescription>
-              Pessoas que buscam um tênis confiável para manter o ritmo em
-              treinos e também para aqueles que não abrem mão do estilo no dia a
-              dia. O Nike Revolution 6 Next Nature é perfeito para quem quer
-              aliar a paixão pelo esporte com a consciência ambiental.
-            </TextDescription>
-          </Description>
-          <SizeProduct>
-            <h5>Tamanho</h5>
-            <button>36</button>
-            <button>37</button>
-            <button>38</button>
-            <button>39</button>
-            <button>40</button>
-          </SizeProduct>
-          <ColorProduct>
-            <h5>Cores</h5>
-            <span className="item-blue"></span>
-            <span className="item-red"></span>
-            <span className="item-black"></span>
-            <span className="item-white"></span>
-          </ColorProduct>
-          <Btn>Comprar</Btn>
-        </div>
-      </Container>
-    </Sectory>
+              <StatusNumberAvaliation>(90 avaliações)</StatusNumberAvaliation>
+            </Status>
+
+            <Price>
+              <span className="simbolo">R$</span>{" "}
+              <span className="priceAtual">250,00</span>
+              <span className="priceOld">R$ 190,00</span>
+            </Price>
+            <Description>
+              <TitleDescription>Descrição do produto</TitleDescription>
+              <TextDescription>
+                Pessoas que buscam um tênis confiável para manter o ritmo em
+                treinos e também para aqueles que não abrem mão do estilo no dia
+                a dia. O Nike Revolution 6 Next Nature é perfeito para quem quer
+                aliar a paixão pelo esporte com a consciência ambiental.
+              </TextDescription>
+            </Description>
+            <SizeProduct>
+              <h5>Tamanho</h5>
+              <button>36</button>
+              <button>37</button>
+              <button>38</button>
+              <button>39</button>
+              <button>40</button>
+            </SizeProduct>
+            <ColorProduct>
+              <h5>Cores</h5>
+              <span className="item-blue"></span>
+              <span className="item-red"></span>
+              <span className="item-black"></span>
+              <span className="item-white"></span>
+            </ColorProduct>
+            <Btn>Comprar</Btn>
+          </div>
+        </Container>
+      </Sectory>
+    </>
   );
 }
