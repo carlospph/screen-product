@@ -1,0 +1,14 @@
+.groupInput{
+    border:1px solid gray;
+    border-radius: 6px;
+    width:100%;
+    max-width: 560px;
+    padding: 0 .6rem;
+}
+
+.groupInput input{
+    height: 44px;
+    outline: none;
+    padding: 0 .3rem;
+    border:0;
+}
