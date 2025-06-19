@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {Header} from "./header/Header.jsx";
 
 const Sectory = styled.section`
   background: #f2f2f2;
