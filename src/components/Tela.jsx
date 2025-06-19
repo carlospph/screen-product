@@ -290,7 +290,7 @@ export function Tela() {
           <Description>
             <TitleDescription>Descrição do produto</TitleDescription>
             <TextDescription>
-              Atletas que buscam um tênis confiável para manter o ritmo em
+              Pessoas que buscam um tênis confiável para manter o ritmo em
               treinos e também para aqueles que não abrem mão do estilo no dia a
               dia. O Nike Revolution 6 Next Nature é perfeito para quem quer
               aliar a paixão pelo esporte com a consciência ambiental.
