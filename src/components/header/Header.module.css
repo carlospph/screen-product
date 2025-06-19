@@ -3,7 +3,22 @@
 }
 
 .logo {
-  border: 3px solid green;
   display: flex;
   align-items: center;
+  gap: 0.4em;
+}
+
+.logo i {
+  border-radius: 5px;
+  background-color: brown;
+  padding: 5px;
+  color: white;
+  font-size: 2rem;
+}
+
+.logo span {
+  font-size: 2rem;
+  color: brown;
+  white-space: norwap;
+  font-weight: bold;
 }
